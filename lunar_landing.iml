@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="lunar_landing" external.linked.project.path="/media/octopuscabbage/96ba6217-d45d-44dc-871e-70462d549341/docsandsettings/code/lunar_landing" external.root.project.path="$MODULE_DIR$" external.system.id="GRADLE" external.system.module.group="" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file:///media/octopuscabbage/96ba6217-d45d-44dc-871e-70462d549341/docsandsettings/code/lunar_landing">
+      <excludeFolder url="file:///media/octopuscabbage/96ba6217-d45d-44dc-871e-70462d549341/docsandsettings/code/lunar_landing/.gradle" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
