@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/octopuscabbage/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/media/octopuscabbage/96ba6217-d45d-44dc-871e-70462d549341/docsandsettings/code/Lunar-Lander/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1_030cdd0b7e930c434a90a7c1a38ddb7a65ca0496.jar" />
+    </item>
+
+</items>
