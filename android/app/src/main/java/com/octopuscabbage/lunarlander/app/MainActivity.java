@@ -1,11 +1,16 @@
 package com.octopuscabbage.lunarlander.app;
 
 import android.app.Activity;
+import android.content.CursorLoader;
+import android.content.Intent;
+import android.database.Cursor;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 
 public class MainActivity extends Activity {
     String msg = "Android : ";
+    SMSReader smsReader;
 
     /** Called when the activity is first created. */
     @Override
@@ -13,6 +18,12 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         //setContentView(R.layout.activity_main);
         Log.d(msg, "The onCreate() event");
+        setContentView(R.layout.activity_main);
+        CursorLoader cursorLoader = new CursorLoader(getApplicationContext());
+        cursorLoader.setUri(Uri.parse("content://sms/inbox"));
+        smsReader = new SMSReader(cursorLoader.loadInBackground());
+        smsReader.startDaemon();
+
     }
 
     /** Called when the activity is about to become visible. */

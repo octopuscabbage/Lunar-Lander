@@ -14,7 +14,7 @@ public class PictureEncoder {
     public static List<PicturePayload> encodeByteArrayOutputStream(int startingMessageCount,ByteArrayOutputStream jpegStream) throws IOException{
         jpegStream.close();
         byte[] array = jpegStream.toByteArray();
-        List<PicturePayload> messages = new ArrayList<>();
+        List<PicturePayload> messages = new ArrayList<PicturePayload>();
         int currentMessageCount = startingMessageCount;
         int i;
         for(i = 0; i < array.length; i+= PicturePayload.OCTETS_PER_MESSAGE){

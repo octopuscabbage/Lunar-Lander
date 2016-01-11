@@ -11,7 +11,7 @@ import java.util.stream.Stream;
 public class MessageQueue {
     private LinkedList<GenericMessage> messageHolder;
     public MessageQueue(){
-        messageHolder = new LinkedList<>();
+        messageHolder = new LinkedList<GenericMessage>();
     }
     public void insertMessage(GenericMessage message){
         int messageNum = message.getMessageNumber();
